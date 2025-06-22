@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const activeTasksBtn = document.getElementById('activeTasks');
     const completedTasksBtn = document.getElementById('completedTasks');
     
-    const API_BASE_URL = 'http://localhost:8080';
+    const API_BASE_URL = 'http://localhost:3000';
     
     let currentFilter = 'all';
     
